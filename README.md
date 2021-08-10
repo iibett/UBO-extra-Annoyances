@@ -1,2 +1,2 @@
-# UBO-filters-for-LTU-sites
-this filter list is just for testing
+# UBO-Twitch Annoyances
+Blocks Twitch Annoyances
