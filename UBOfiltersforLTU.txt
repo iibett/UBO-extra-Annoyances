@@ -2,4 +2,12 @@
 ! Version: v2021001
 
 ||www.kinas.tv/info.mp4$media,domain=www.kinas.tv
-###lb-60fede30169bf5-61937372
+
+! twitch maziau uspisantis
+twitch.tv##div[class="sc-AxiKw fNGOnq extensions-dock-card tw-root--theme-light tw-root--hover"]
+! discription
+twitch.tv##div[class="Layout-sc-nxg1ff-0 eVxqWI channel-panels"]
+!subscribe pygtukas
+www.twitch.tv##.cmmBuc.Layout-sc-nxg1ff-0 > .cAHINR.ScCoreButtonSecondary-sc-1qn4ixc-2.ScCoreButton-sc-1qn4ixc-0
+!new prime loot mygtujkas
+twitch.tv##div[class="Layout-sc-nxg1ff-0 cTBgEf top-nav__prime"]
