@@ -1,13 +1,15 @@
-!UBO-filters-for-LTU-sites
+!UBO-Annoyances
 ! Version: v2021001
 
 ||www.kinas.tv/info.mp4$media,domain=www.kinas.tv
 
-! twitch maziau uspisantis
-twitch.tv##div[class="sc-AxiKw fNGOnq extensions-dock-card tw-root--theme-light tw-root--hover"]
-! discription
-twitch.tv##div[class="Layout-sc-nxg1ff-0 eVxqWI channel-panels"]
-!subscribe pygtukas
-www.twitch.tv##.cmmBuc.Layout-sc-nxg1ff-0 > .cAHINR.ScCoreButtonSecondary-sc-1qn4ixc-2.ScCoreButton-sc-1qn4ixc-0
-!new prime loot mygtujkas
-twitch.tv##div[class="Layout-sc-nxg1ff-0 cTBgEf top-nav__prime"]
+!--------------------------Google-----------------------------
+!google cookie consent
+google.com##.HTjtHe
+!overflow:hidden solution for GDPR consent buttons ( aka fix for no scrolling)
+google.*,instagram.com,facebook.com##body,html:style(overflow:auto !important)
+
+!------------------youtube----------------------------------------
+!youtube inkognyto agree mygtukas
+youtube.com##.opened
+youtube.com###lightbox > .ytd-consent-bump-v2-lightbox.style-scope
