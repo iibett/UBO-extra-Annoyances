@@ -1,2 +1,1 @@
-# UBO-Twitch Annoyances
-Blocks Twitch Annoyances
+# UBO-Annoyances
