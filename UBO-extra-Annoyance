@@ -4,10 +4,11 @@
 ||www.kinas.tv/info.mp4$media,domain=www.kinas.tv
 
 !--------------------------Google-----------------------------
-!google cookie consent
-google.com##.HTjtHe
-!overflow:hidden solution for GDPR consent buttons ( aka fix for no scrolling)
-google.*,instagram.com,facebook.com##body,html:style(overflow:auto !important)
+! Google consent, "before you continue"
+www.google.*##^script:has-text(consentCookiePayload)
+www.google.*##+js(acis, document.cookie, YES+)
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+||consent.google.com
 
 !------------------youtube----------------------------------------
 !youtube inkognyto agree mygtukas
