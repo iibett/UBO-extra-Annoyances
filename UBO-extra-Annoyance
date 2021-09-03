@@ -8,7 +8,6 @@
 www.google.*##^script:has-text(consentCookiePayload)
 www.google.*##+js(acis, document.cookie, YES+)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
-||consent.google.com
 
 !------------------youtube----------------------------------------
 !youtube inkognyto agree mygtukas
