@@ -1,7 +1,7 @@
 !UBO-Annoyances
 ! Version: v2021001
 
-||www.kinas.tv/info.mp4$media,domain=www.kinas.tv
+||www.kinas.tv/info.mp4$redirect=noop-1s.mp4
 ||www.tamo.lt/wp-content/uploads/2021/10/LT-570X400-copy-2-2*.png
 tamo.lt##a[href^="https://dienynas.tamo.lt/Ad/Kalba/Studijos"]
 
