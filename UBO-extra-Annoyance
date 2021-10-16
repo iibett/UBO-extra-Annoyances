@@ -15,3 +15,7 @@ google.*##+js(aeld, DOMContentLoaded, CONSENT)
 !youtube inkognyto agree mygtukas
 youtube.com##.opened
 youtube.com###lightbox > .ytd-consent-bump-v2-lightbox.style-scope
+
+
+logincasino.org##[class="modal-dialog welcome-bonus__modal-dialog"][role="document"]
+logincasino.org##[style="width: 750px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"]
