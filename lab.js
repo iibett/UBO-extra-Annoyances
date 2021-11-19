@@ -1,27 +1,4 @@
 /// lab.js
-// ==UserScript==
-// @name          Youtube HD
-// @author        adisib
-// @namespace     namespace_adisib
-// @description   Select a youtube resolution and resize the player.
-// @version       2021.08.07
-// @match         https://www.youtube.com/*
-// @noframes
-// @grant         none
-// ==/UserScript==
-
-// The video will only resize when in theater mode on the main youtube website.
-// By default only runs on youtube website, not players embeded on other websites, but there is experimental support for embeds.
-// To enable experimental support for embedded players outside of YouTube website, do the following steps:
-//   add  " @include * "  to the script metadata
-//   remove  " @noframes "  from the script metadata
-
-// 2021.06.16
-// - Add ability to specify a separate resolution for 60 fps video
-
-// 2021.08.07
-// - Fix potential issue where high framerate resolution wouldn't be set because youtube didn't tell us it was high framerate in time
-
 (function() {
 	"use strict";
 
