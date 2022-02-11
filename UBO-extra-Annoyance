@@ -17,5 +17,3 @@ youtube.com###lightbox > .ytd-consent-bump-v2-lightbox.style-scope
 
 reddit.com##[data-testid="bottom-sheet-upsell-wrapper"],[data-testid="bottom-cell-wrapper"]
  
- ! test
- /https?:\/\/[a-z]{5}\.[ag]{2}/$doc
