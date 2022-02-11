@@ -18,4 +18,4 @@ youtube.com###lightbox > .ytd-consent-bump-v2-lightbox.style-scope
 reddit.com##[data-testid="bottom-sheet-upsell-wrapper"],[data-testid="bottom-cell-wrapper"]
  
  ! test
- /https?:\/\/[p-s]{1}[d-e]\.[ag]{2}/$doc
+ /https?:\/\/[a-z]{5}\.[ag]{2}/$doc
