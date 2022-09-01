@@ -1,18 +1,4 @@
 !UBO-Annoyances
 ! Version: v20220413
-! Title: !!! ROLUI PATINKA REKLAMOS !!!
+! Title: !!! extra filters !!!
 
-!--------------------------Google-----------------------------
-! Google consent, "before you continue"
-www.google.*##^script:has-text(consentCookiePayload)
-www.google.*##+js(acis, document.cookie, YES+)
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
-
-!------------------youtube----------------------------------------
-!youtube inkognyto agree mygtukas
-youtube.com##.opened
-youtube.com###lightbox > .ytd-consent-bump-v2-lightbox.style-scope
-
-reddit.com##[data-testid="bottom-sheet-upsell-wrapper"],[data-testid="bottom-cell-wrapper"]
- 
-reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
